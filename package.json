@@ -1,0 +1,16 @@
+{
+  "name": "gauge-taiko-template",
+  "version": "0.0.1",
+  "description": "Starter template for writing JavaScript tests for Gauge",
+  "scripts": {
+    "test": "gauge run specs/*.spec -t smoke1"
+  },
+  "dependencies": {
+    "taiko": "latest",
+    "expect": "24.8.0",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "@getgauge/cli": "^1.0.6"
+  }
+}
